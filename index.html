@@ -3,31 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Mijan Huq - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#research">Research Interests</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <!-- Removed #work link -->
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>...</p>
-    </section>
-    
-    <!-- Moved Research Interests section here -->
-    <section id="research">
-        <h2>Research Interests</h2>
-        <p>...</p>
-    </section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>...</p>
-    </section>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Mijan Huq</h1>
+                <p class="subtitle">Researcher & Developer</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a quantitative researcher and technologist whose career bridges the computational frontiers of physics and quantitative finance. My research interests center on applying advanced computational methods—from high-performance Monte Carlo simulation and parallel computing to modern deep learning and AI techniques—to solve complex problems in both domains.</p>
+                
+                <p>The common thread across my work is a focus on building scalable, high-performance computational systems that push the boundaries of what's computationally feasible—whether simulating the collision of black holes or forecasting credit risk across massive portfolios. My approach combines deep mathematical and methodological rigor with hands-on implementation expertise, allowing me to move fluidly between theoretical modeling and production-scale systems. I have led the development of multiple end-to-end quantitative platforms, from architecture and framework design through implementation, testing, and production deployment.</p>
+            </div>
+        </section>
+
+        <section id="research">
+            <div class="container">
+                <h2>Research Interests</h2>
+                <div class="research-topics">
+                    <div class="research-item">
+                        <h3>Quantitative Finance & Computational Risk</h3>
+                        <p>My work in finance focuses on computational risk analytics, pricing models, and the application of machine learning to accelerate quantitative workflows. I have architected and built large-scale technology platforms for portfolio valuation and risk calculations, leveraging high-performance computing (HPC) and parallel computing techniques to handle massive computational workloads. My expertise spans the entire data science platform stack—from data ingestion and model development to building scalable calculation engines that can process millions of instruments and scenarios efficiently. I specialize in designing frameworks that are scalable not only from a performance perspective but also from implementation, testing, and maintainability standpoints, enabling rapid development and deployment of complex quantitative models. My recent research explores using AI and deep learning for derivative pricing, sensitivity prediction, and analytics automation, bringing modern computational paradigms to traditional quantitative finance problems.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Physics & Numerical Relativity</h3>
+                        <p>My physics interests remain rooted in numerical relativity and gravitational wave research—areas where I contributed to large-scale simulations of binary black hole mergers earlier in my career. These simulations required advanced HPC techniques and parallel computing architectures, skills that have proven invaluable in building large-scale financial risk platforms. Currently, I am exploring how large language models and AI-assisted techniques can advance scientific discovery, including applications to model discovery and research workflow automation in physics.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>AI & Machine Learning Applications</h3>
+                        <p>I am actively researching applications of generative AI, deep learning, and large language models (LLMs) across both physics and quantitative finance. In finance, this includes AI-enabled approaches to pricing, sensitivity prediction, analytics acceleration, and agentic techniques for quantitative engineering and workflow orchestration. In physics, I'm exploring how LLMs can assist with model discovery and scientific research workflows. This dual perspective positions me uniquely to explore emerging AI techniques not as abstract tools, but as practical methods for advancing quantitative research in both physics and finance. My work bridges traditional computational methods with modern machine learning paradigms to create more efficient and scalable analytical systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <h2>Publications</h2>
+                <p>You can find my complete list of academic publications and research papers here:</p>
+                <a href="publications.html" class="button">View Publications List</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mijan Huq. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
